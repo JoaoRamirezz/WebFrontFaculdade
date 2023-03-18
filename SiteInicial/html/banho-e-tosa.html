@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="index.html">Home</a>
+
+    <h1>Agendamento para banho e tosa</h1>
+    <h2>Faça o seu agendamento com pelo menos 48 horas de antecedência</h2>
+
+    <fieldset>
+        <legend>Identificação do dono do animal</legend>
+
+        <form>
+            <label>Nome: </label>
+            <input type="text" placeholder="Digite o nome do cliente"><br><br>
+
+            <label>Endereço:</label>
+            <input type="text" placeholder="Digite o endereço"><br><br>
+
+            <label>CEP:</label>
+            <input type="text" placeholder="XXXXX-XXX"><br><br>
+
+            <label>Celular:</label>
+            <input type="text" placeholder="(XX)XXXXX-XXXX"><br><br>
+
+            <label>E-mail:</label>
+            <input type="email" placeholder="Digite o endereço de email"><br><br>
+
+            <input type="submit">
+        </form>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Animal</legend>
+
+        <form>
+            <label>Nome: </label>
+            <input type="text" placeholder="Digite o nome do cliente"><br><br>
+
+            Porte do animal:
+            <input type="radio" name="porte">
+            <label for="sexo-m">Pequeno</label>
+            <input type="radio" name="porte">
+            <label for="sexo-m">Medio</label>
+            <input type="radio" name="porte">
+            <label for="sexo-m">Grande</label><br><br>
+
+
+
+            <label for="tipoTosa">Tipo de tosa:</label>
+            <select id="tipoTosa" name="tipoTosa">
+                <option value="Nenhuma">Nenhuma</option>
+                <option value="Incompleta">Incompleta</option>
+                <option value="Completa">Completa</option>
+            </select><br><br>
+
+
+            <label for="Obs">Observações:</label>
+            <textarea id="w3review" name="w3review" rows="4" cols="50">Digite alguma informação sobre o Animal</textarea><br><br>
+
+
+            <input type="submit">
+        </form>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Horario: (Não atendemos de domingo e segunda-feira)</legend>
+
+        <form>
+            Indique os dias da semana de sua preferência:<br>
+            <input type="radio" name="dia">
+            <label for="sexo-m">Terça-feira</label>
+            <input type="radio" name="dia">
+            <label for="sexo-m">Quarta-feira</label>
+            <input type="radio" name="dia">
+            <label for="sexo-m">Quinta-feira</label>
+            <input type="radio" name="dia">
+            <label for="sexo-m">Sexta-feira</label>
+            <input type="radio" name="dia">
+            <label for="sexo-m">Sábado-feira</label><br><br>
+
+
+            Primeira opção de horário: 
+            <input type="text" placeholder="dd/mm/aaaa"><br><br>
+            Segunda opção de horário: 
+            <input type="text" placeholder="dd/mm/aaaa"><br><br>
+
+
+            <input type="submit">
+        </form>
+    </fieldset>
+    
+</body>
+</html>
