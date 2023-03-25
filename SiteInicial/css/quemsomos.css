@@ -1,0 +1,25 @@
+h1{
+    color: #C0262C;
+}
+
+
+h2{
+    font-size: 28px;
+}
+
+
+p{
+    font-size: 1.1em;
+    line-height: 1.3em;
+    text-align: justify;
+}
+
+
+hr{
+    border-color: #C0262C;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}

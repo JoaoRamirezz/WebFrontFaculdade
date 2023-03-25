@@ -1,15 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h2 {
+            background-color: #C0262C;
+            padding: 2em;
+            color: white;
+            background-image: url(../multimidia/importante-saber.jpg), url(../multimidia/back-bolinha.gif);
+            background-repeat: no-repeat, repeat;
+            background-position: center right, center center;
+            font-size: 2.5em;
+            width: 470px;
+            padding: 61px 400px 61px 100px;
+
+        }
+
+        figure {
+            text-align: center;
+            border: #C0262C solid thin;
+            border-radius: 35px 35px 0 0;
+            padding: 20px 0 0;
+        }
+
+        figcaption {
+            background-color: #C0262C;
+            padding: 7px 0;
+            color: white;
+            font-size: 1.5em;
+        }
+
+        ul li {
+            list-style: none;
+            list-style-image: url(../multimidia/ossinho.png);
+            list-style-position: inside;
+            margin: 30px 0;
+        }
+
+        dt {
+            background-color: #C0262C;
+            color: white;
+            padding: 7px;
+        }
+
+        dd {
+            border: thin #C0262C solid;
+            border-radius: 0 0 15px 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+            margin-top: -3px;
+        }
+
+        ol{
+            list-style-type: none;
+            white-space: pre;
+
+            counter-reset: contador;
+        }
+
+        ol li::before{
+            color: #999999;
+            counter-increment: contador;
+            content: "Questão " counter(contador) ": ";
+        }
+    </style>
 </head>
+
 <body>
     <h1>Qual a melhor raça de cachorros para crianças?</h1>
 
     <h2>Antes de mais nada é importante que você tenha em mente aresposta para algumas questões:</h2>
+
 
 
     <ol>
@@ -22,68 +87,110 @@
         <li>Fica preocupado com bagunça?</li>
     </ol>
 
-    <img src="..\multimidia\bolinha.JPG" alt="terrordecrianca"><br>
-    <img src="..\multimidia\esquentar-pes.JPG" alt="footlover"><br>
-        Para brincar ou esquentar os seus pés
+    <figure>
+        <img src="..\multimidia\bolinha.JPG" alt="terrordecrianca">
+        <img src="..\multimidia\esquentar-pes.JPG" alt="footlover">
+        <figcaption>Para brincar ou esquentar os seus pés</figcaption>
+    </figure>
 
-        <h3>Veja algumas raças:</h3>
-        <ul id="nklporcelana">
-            <li><a href="#bulldog">Bulldog</a></li>
-            <li><a href="#beagle">Beagle</a></li>
-            <li><a href="#bull-terrier">Bull Terrier</a></li>
-            <li><a href="#collie">Collie</a></li>
-            <li><a href="#labrador">Labrador</a></li>
-            <li><a href="#lhasa">Lhasa Apso</a></li>
-        </ul>
 
-        <dl>
+    <h3>Veja algumas raças:</h3>
+    <ul id="nklporcelana">
+        <li><a href="#bulldog">Bulldog</a></li>
+        <li><a href="#beagle">Beagle</a></li>
+        <li><a href="#bull-terrier">Bull Terrier</a></li>
+        <li><a href="#collie">Collie</a></li>
+        <li><a href="#labrador">Labrador</a></li>
+        <li><a href="#lhasa">Lhasa Apso</a></li>
+    </ul>
+
+    <dl>
         <dt id="bulldog">Bulldog</dt>
         <dd>
-            Embora a aparência do Bulldog Inglês pode ser um pouco intimidante, está entre o mais gentil doscães. Apenas o mesmo que vai ver fora qualquer intruso, e poucos arriscariam um encontro próximocom um cão corajoso o suficiente para atrair um touro. É descrito como um animal muito carinhoso econfiável, gentil com as crianças, mas conhecido por sua coragem e suas excelentes habilidades deguarda.</dd>
-            <a href="https://pt.wikipedia.org/wiki/Buldogue">Tenha mais informações</a>
-            <br>
-            <a href="#nklporcelana">Voltar</a>
-            <br><br>
+            Embora a aparência do Bulldog Inglês pode ser um pouco intimidante, está entre o mais gentil doscães. Apenas
+            o mesmo que vai ver fora qualquer intruso, e poucos arriscariam um encontro próximocom um cão corajoso o
+            suficiente para atrair um touro. É descrito como um animal muito carinhoso econfiável, gentil com as
+            crianças, mas conhecido por sua coragem e suas excelentes habilidades deguarda.<br>
+        <a href="https://pt.wikipedia.org/wiki/Buldogue">Tenha mais informações</a>
+        <br>
+        <a href="#nklporcelana">Voltar</a>
+        <br><br>
+
+        </dd>
+
+
 
         <dt id="beagle">Beagle</dt>
         <dd>
-            O Beagle é amoroso, doce e gentil, feliz de ver todos, cumprimentá-los com uma cauda abanando. É sociável, corajoso e inteligente. O Beagle é excelente com crianças e geralmente bem com outros cães,mas por causa de seus instintos de caça, não deve ser confiado com animais de estimação não-caninos,a não ser socializados com gatos e outros animais domésticos quando jovens</dd>
-            <a href="https://pt.wikipedia.org/wiki/Beagle">Tenha mais informações</a>
-            <br>
-            <a href="#nklporcelana">Voltar</a>
-            <br><br>
+            O Beagle é amoroso, doce e gentil, feliz de ver todos, cumprimentá-los com uma cauda abanando. É sociável,
+            corajoso e inteligente. O Beagle é excelente com crianças e geralmente bem com outros cães,mas por causa de
+            seus instintos de caça, não deve ser confiado com animais de estimação não-caninos,a não ser socializados
+            com gatos e outros animais domésticos quando jovens<br>
+        <a href="https://pt.wikipedia.org/wiki/Beagle">Tenha mais informações</a>
+        <br>
+        <a href="#nklporcelana">Voltar</a>
+        <br><br>
+        </dd>
+
+
 
         <dt id="bull-terrier">Bull Terrier</dt>
         <dd>
-            Antigamente esta raça era considerada um gladiador feroz, agora é vista como um cão dócil. O Bullterrier pode ter um efeito preventivo e pode defender seu dono em uma situação verdadeiramentecrítica, mas não é criado para ser um cão de guarda. Corajoso, desconexo, divertido, carinhoso, ativo,palhaço e destemido, o Bull Terrier é um cão educado, obediente e leal. Ele se torna muito ligado aosseus donos.</dd>
-            <a href="https://pt.wikipedia.org/wiki/Bull_terrier">Tenha mais informações</a>
-            <br>
-            <a href="#nklporcelana">Voltar</a>
-            <br><br>
+            Antigamente esta raça era considerada um gladiador feroz, agora é vista como um cão dócil. O Bullterrier
+            pode ter um efeito preventivo e pode defender seu dono em uma situação verdadeiramentecrítica, mas não é
+            criado para ser um cão de guarda. Corajoso, desconexo, divertido, carinhoso, ativo,palhaço e destemido, o
+            Bull Terrier é um cão educado, obediente e leal. Ele se torna muito ligado aosseus donos.<br>
+        <a href="https://pt.wikipedia.org/wiki/Bull_terrier">Tenha mais informações</a>
+        <br>
+        <a href="#nklporcelana">Voltar</a>
+        <br><br>
+        </dd>
+
+
 
         <dt id="collie">Collie</dt>
         <dd>
-            O Collie é um cão muito inteligente. Sensível, meigo, doce, fácil de treinar e leal, é geralmente bomcom outros animais de estimação e amigável com outros cães. Eles são pastores naturais; filhotespodem tentar os humanos rebanho, e precisam ser ensinados a não fazer isso. Fiel, brincalhão, dócil eprotetora de seus familiares e bom com crianças</dd>
-            <a href="https://pt.wikipedia.org/wiki/Rough_collie">Tenha mais informações</a>
-            <br>
-            <a href="#nklporcelana">Voltar</a>
-            <br><br>
+            O Collie é um cão muito inteligente. Sensível, meigo, doce, fácil de treinar e leal, é geralmente bomcom
+            outros animais de estimação e amigável com outros cães. Eles são pastores naturais; filhotespodem tentar os
+            humanos rebanho, e precisam ser ensinados a não fazer isso. Fiel, brincalhão, dócil eprotetora de seus
+            familiares e bom com crianças<br>
+        <a href="https://pt.wikipedia.org/wiki/Rough_collie">Tenha mais informações</a>
+        <br>
+        <a href="#nklporcelana">Voltar</a>
+        <br><br>
+        </dd>
+
+
 
         <dt id="labrador">Labrador</dt>
         <dd>
-            Uma das raças mais populares nos EUA, o Labrador é leal, amoroso, carinhoso e paciente, fazendocom que um cão grande da família. Muito inteligente, bem-humorada, muito disposto e ansioso paraagradar, ela está entre as melhores opções para o trabalho de cão de serviço. Labs gostam de jogar,especialmente em água, nunca querer deixar passar a oportunidade para um bom mergulho. Estes cãesvivos têm uma excelente temperamento, confiável e amigável, excelente com crianças e uniforme comoutros cães.</dd>
-            <a href="https://pt.wikipedia.org/wiki/Labrador_retriever">Tenha mais informações</a>
-            <br>
-            <a href="#nklporcelana">Voltar</a>
-            <br><br>
+            Uma das raças mais populares nos EUA, o Labrador é leal, amoroso, carinhoso e paciente, fazendocom que um
+            cão grande da família. Muito inteligente, bem-humorada, muito disposto e ansioso paraagradar, ela está entre
+            as melhores opções para o trabalho de cão de serviço. Labs gostam de jogar,especialmente em água, nunca
+            querer deixar passar a oportunidade para um bom mergulho. Estes cãesvivos têm uma excelente temperamento,
+            confiável e amigável, excelente com crianças e uniforme comoutros cães.<br>
+        <a href="https://pt.wikipedia.org/wiki/Labrador_retriever">Tenha mais informações</a><br>
+        <a href="#nklporcelana">Voltar</a>
+        <br><br>
+        </dd>
+
+
 
         <dt id="lhasa">Lhasa Apso</dt>
         <dd>
-            Este é um cão resistente com uma maneira amigável, assertivo. Inteligente e animada, faz um bomanimal de estimação. Lhasa Apso são pequenos cães espirituoso e dedicados que são afetuoso comseus donos. Eles podem ser muito obediente a seus mestres. Esta raça responde ao treinamentomotivacional. Eles têm um grande senso de audição, e fazer bons cães de guarda. O Lhasa Apso viaja bem. Infelizmente, este pequeno cão, muitas vezes cai em Síndrome de cão pequeno , umcomportamento humano induzido onde o cão pensa que é líder do bloco para os seres humanos. Issofaz com que muitos graus variados de comportamentos negativos para sair no cão. Tornam-sedesconfiado com estranhos, e n ão pode tolerar crianças</dd>
-            <a href="https://pt.wikipedia.org/wiki/Lhasa_apso">Tenha mais informações</a>
-            <br>
-            <a href="#nklporcelana">Voltar</a>    
-        </dl>
+            Este é um cão resistente com uma maneira amigável, assertivo. Inteligente e animada, faz um bomanimal de
+            estimação. Lhasa Apso são pequenos cães espirituoso e dedicados que são afetuoso comseus donos. Eles podem
+            ser muito obediente a seus mestres. Esta raça responde ao treinamentomotivacional. Eles têm um grande senso
+            de audição, e fazer bons cães de guarda. O Lhasa Apso viaja bem. Infelizmente, este pequeno cão, muitas
+            vezes cai em Síndrome de cão pequeno , umcomportamento humano induzido onde o cão pensa que é líder do bloco
+            para os seres humanos. Issofaz com que muitos graus variados de comportamentos negativos para sair no cão.
+            Tornam-sedesconfiado com estranhos, e n ão pode tolerar crianças<br>
+        <a href="https://pt.wikipedia.org/wiki/Lhasa_apso">Tenha mais informações</a>
+        <br>
+        <a href="#nklporcelana">Voltar</a>
+        </dd>
+    </dl>
 
 </body>
+
 </html>
